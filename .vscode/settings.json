@@ -1,0 +1,42 @@
+{
+  "files.associations": {
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    ".stylelintrc": "json",
+    ".dockerignore": "ignore",
+    ".eslintignore": "ignore"
+  },
+  "typescript.validate.enable": false,
+  "typescript.format.enable": false,
+  "editor.wordWrap": "off",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "html.format.wrapLineLength": 150,
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.validate.enable": true,
+  "javascript.format.enable": true,
+  "search.exclude": {
+    ".git": true,
+    ".nyc_output": true,
+    ".eslintcache": true,
+    "app/dist": true,
+    "app/main.prod.js": true,
+    "app/main.prod.js.map": true,
+    "bower_components": true,
+    "dll": true,
+    "release": true,
+    "node_modules": true,
+    "npm-debug.log.*": true,
+    "test/**/__snapshots__": true,
+    "yarn.lock": true
+  }
+}
